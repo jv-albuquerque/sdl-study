@@ -20,10 +20,9 @@ public:
     bool Running() const;
 
 protected:
-    std::list<GameObject*> gameObjects; 
-
-private:
+    std::list<GameObject*> gameObjects;
+    
     bool isRunning;
     SDL_Window* window;
-    SDL_Renderer* renderer;    
+    SDL_Renderer* renderer;
 };

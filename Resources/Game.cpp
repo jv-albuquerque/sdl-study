@@ -1,9 +1,6 @@
 #include "../Headers//Game.h"
 #include "../Headers/GameObject.h"
 
-//TODO
-GameObject* player = NULL;
-
 Game::Game()
 {
     
@@ -45,12 +42,6 @@ void Game::Init(const char* title, const int width, const int height, const bool
     }
 
     isRunning = true;
-
-    //TODO
-    player = new GameObject("player");
-    player->LoadTexture("Demo/Sprites/player-idle-1.png", renderer);
-
-    gameObjects.push_back(player);
 }
 
 void Game::HandleEvents()

@@ -2,13 +2,12 @@
 
 #include "Headers/Game.h"
 #include "SDL.h"
+#include "Demo/DemoGame.h"
 
 #define SCREEN_WIDTH 1280
 #define SCREEN_HEIGHT 720
 
 #define FPS_CAP 60
-
-std::shared_ptr<Game> game;
 
 int main(int argc, char *argv[])
 {
@@ -19,7 +18,7 @@ int main(int argc, char *argv[])
     SDL_Init(SDL_INIT_EVERYTHING);
     
     const char* title = "SDL Study";
-    game = std::make_shared<Game>();
+    std::shared_ptr<DemoGame> game = std::make_shared<DemoGame>();
     game->Init(title, SCREEN_WIDTH, SCREEN_HEIGHT, false);
 
     while (game->Running())

@@ -13,9 +13,9 @@ Game::~Game()
     
 }
 
-void Game::Init(const char* title, const int posX, const int posY, const int width, const int height, const bool fullscreen)
+void Game::Init(const char* title, const int width, const int height, const bool fullscreen)
 {
-    int flags = 0;
+    int flags = 0;    
 
     if(SDL_Init(SDL_INIT_EVERYTHING) != 0)
     {
@@ -30,7 +30,7 @@ void Game::Init(const char* title, const int posX, const int posY, const int wid
     }
     
     SDL_Log("Subsystem initialized");
-    window = SDL_CreateWindow(title, posX, posY, width, height, flags);
+    window = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, width, height, flags);
     if (window)
     {
         SDL_Log("Window created");

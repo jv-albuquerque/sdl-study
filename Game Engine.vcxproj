@@ -332,6 +332,9 @@ xcopy /y /d "$(SolutionDir)SDL2_image\lib\x64\SDL2_image.dll" "$(OutDir)"</Comma
   <ItemGroup>
     <ClInclude Include="Headers\Game.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Demo\Sprites\player-idle-1.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

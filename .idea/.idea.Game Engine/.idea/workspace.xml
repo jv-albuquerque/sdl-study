@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff390ab9-da89-465e-b0ce-56107f9e9276" name="Changes" comment="Show window">
-      <change afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game Engine.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Game Engine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Game Engine.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/x64/Debug/Game Engine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Game Engine.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +29,28 @@
     <setting file="file://$PROJECT_DIR$/Resources/Game_Engine.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mpr2Hhb25nX0oa0KgR2G2tGG3V" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "C++ Project.Game Engine.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;C++ Project.Game Engine.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Game Engine" type="CppProject" factoryName="C++ Project">
       <configuration_1>

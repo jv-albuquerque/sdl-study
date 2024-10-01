@@ -1,5 +1,8 @@
 #include "../Headers//Game.h"
 
+//TODO
+SDL_Texture* playerTexture;
+
 Game::Game()
 {
     
@@ -41,6 +44,11 @@ void Game::Init(const char* title, const int posX, const int posY, const int wid
     }
 
     isRunning = true;
+
+    //TODO
+    SDL_Surface* tempSurface = IMG_Load("Demo/Sprites/player-idle-1.png");
+    playerTexture = SDL_CreateTextureFromSurface(renderer, tempSurface);
+    SDL_FreeSurface(tempSurface);
 }
 
 void Game::HandleEvents()
@@ -69,6 +77,7 @@ void Game::Render()
     SDL_RenderClear(renderer);
     
     //TODO: Add things to the renderer
+    SDL_RenderCopy(renderer, playerTexture, NULL, NULL);
     
     SDL_RenderPresent(renderer);
 }

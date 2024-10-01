@@ -8,9 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff390ab9-da89-465e-b0ce-56107f9e9276" name="Changes" comment="Show window">
+      <change afterPath="$PROJECT_DIR$/Demo/Sprites/player-idle-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Game Engine/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Game Engine/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Game Engine/v17/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Game Engine/v17/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Game Engine/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Game Engine/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Game Engine/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Game Engine/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Game Engine/v17/ipch/AutoPCH/d2565093dea7e1cc/GAME_ENGINE.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Game Engine/v17/ipch/AutoPCH/d2565093dea7e1cc/GAME_ENGINE.ipch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.log" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/CL.write.1.tlog" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.read.1.tlog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game Engine.tlog/link.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/Game_Engine.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/Game_Engine.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/vc143.idb" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/vc143.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine/x64/Debug/vc143.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine/x64/Debug/vc143.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Game.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Game Engine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Game Engine.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/x64/Debug/Game Engine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/x64/Debug/Game Engine.pdb" afterDir="false" />
     </list>

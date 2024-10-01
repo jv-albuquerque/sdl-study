@@ -78,8 +78,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2_image\include;D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2_image\lib\x64;D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)SDL2_image\include;$(SolutionDir)SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SDL2_image\lib\x64;$(SolutionDir)SDL2\lib\x64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -118,12 +118,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2_image\include;$(SolutionDir)SDL2\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)SDL2_image\include;$(SolutionDir)SDL2\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\_Documentos\Documentos\Git Projects\SDL Game Engine\Game Engine\SDL2_image\lib\x64;$(SolutionDir)SDL2\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)SDL2_image\lib\x64;$(SolutionDir)SDL2\lib\x64</AdditionalLibraryDirectories>
       <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);SDL2.lib;SDL2main.lib;SDL2_image.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>

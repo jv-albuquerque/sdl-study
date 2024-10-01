@@ -8,10 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff390ab9-da89-465e-b0ce-56107f9e9276" name="Changes" comment="Show window">
-      <change afterPath="$PROJECT_DIR$/Headers/TextureManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/TextureManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/GameObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/GameObject.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Engine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Engine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game Engine.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Game.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Game.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

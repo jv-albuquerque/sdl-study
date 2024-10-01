@@ -1,4 +1,7 @@
 #pragma once
+#include <list>
+
+#include "GameObject.h"
 #include "SDL.h"
 
 class Game
@@ -15,6 +18,9 @@ public:
     void Close();
 
     bool Running() const;
+
+protected:
+    std::list<GameObject*> gameObjects; 
 
 private:
     bool isRunning;

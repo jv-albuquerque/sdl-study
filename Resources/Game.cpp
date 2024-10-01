@@ -1,9 +1,8 @@
 #include "../Headers//Game.h"
-
-#include "../Headers/TextureManager.h"
+#include "../Headers/GameObject.h"
 
 //TODO
-SDL_Texture* playerTexture;
+GameObject* player = NULL;
 
 Game::Game()
 {
@@ -48,7 +47,10 @@ void Game::Init(const char* title, const int width, const int height, const bool
     isRunning = true;
 
     //TODO
-    playerTexture = TextureManager::LoadTexture("Demo/Sprites/player-idle-1.png", renderer);
+    player = new GameObject("player");
+    player->LoadTexture("Demo/Sprites/player-idle-1.png", renderer);
+
+    gameObjects.push_back(player);
 }
 
 void Game::HandleEvents()
@@ -69,15 +71,27 @@ void Game::HandleEvents()
 
 void Game::Update()
 {
-    
+    for (auto go : gameObjects)
+    {
+        if(go == NULL)
+        {
+            gameObjects.remove(go);
+        }
+        else
+        {
+            go->Update();
+        }
+    }
 }
 
 void Game::Render()
 {
-    SDL_RenderClear(renderer);
+    SDL_RenderClear(renderer);    
     
-    //TODO: Add things to the renderer
-    SDL_RenderCopy(renderer, playerTexture, NULL, NULL);
+    for (auto go : gameObjects)
+    {
+        go->Render(renderer);
+    }
     
     SDL_RenderPresent(renderer);
 }

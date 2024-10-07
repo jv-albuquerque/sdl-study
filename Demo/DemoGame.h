@@ -4,7 +4,10 @@
 class DemoGame : public Game
 {
 public:
-    DemoGame() : Game() { }
-    ~DemoGame() { }
+    DemoGame() = default;
+    ~DemoGame() = default;
+    
     void Init(const char* title, int width, int height, bool fullscreen);
+
+    void TempRender() override;
 };

@@ -1,8 +1,9 @@
 #include "../Headers//Game.h"
 #include "../Headers/GameObject.h"
 
-
 SDL_Renderer* Game::Renderer = nullptr;
+
+
 
 Game::Game()
 {
@@ -86,6 +87,8 @@ void Game::Render()
     {
         go->Render();
     }
+
+    TempRender();
     
     SDL_RenderPresent(Renderer);
 }

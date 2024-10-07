@@ -28,7 +28,7 @@ GameObject::~GameObject()
 
 void GameObject::LoadTexture(const char* texturePath)
 {
-    texture = TextureManager::LoadTexture("Demo/Sprites/player-idle-1.png");
+    texture = TextureManager::LoadTexture(texturePath);
 }
 
 void GameObject::Update()
@@ -37,5 +37,5 @@ void GameObject::Update()
 
 void GameObject::Render()
 {
-    SDL_RenderCopy(Game::Renderer, texture, &srcRect, &destRect);
+    TextureManager::Draw(texture, srcRect, destRect);
 }

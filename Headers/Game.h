@@ -18,6 +18,9 @@ public:
     void Close();
 
     bool Running() const;
+
+    //TODO: DELETE THIS
+    virtual void TempRender() { }
     
     static SDL_Renderer* Renderer;
 
@@ -25,5 +28,5 @@ protected:
     std::list<GameObject*> gameObjects;
     
     bool isRunning;
-    SDL_Window* window;
+    SDL_Window* window;    
 };

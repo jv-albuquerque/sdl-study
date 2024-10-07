@@ -8,7 +8,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff390ab9-da89-465e-b0ce-56107f9e9276" name="Changes" comment="Show window">
+      <change afterPath="$PROJECT_DIR$/Demo/Sprites/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Sprites/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Demo/Sprites/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Headers/Map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/Map.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Engine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Engine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/DemoGame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/DemoGame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/DemoGame.h" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/DemoGame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game Engine.vcxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game Engine.vcxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Headers/TextureManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Headers/TextureManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/TextureManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/TextureManager.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +126,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727784151063</updated>
       <workItem from="1727784152297" duration="2051000" />
+      <workItem from="1728298562980" duration="3221000" />
+      <workItem from="1728302919623" duration="4128000" />
     </task>
     <task id="LOCAL-00001" summary="Add SDL">
       <option name="closed" value="true" />

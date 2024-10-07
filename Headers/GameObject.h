@@ -11,10 +11,10 @@ public:
     ~GameObject();
 
     //TODO: Sprite render
-    void LoadTexture(const char* texturePath, SDL_Renderer* renderer);
+    void LoadTexture(const char* texturePath);
 
     void Update();
-    void Render(SDL_Renderer* renderer);
+    void Render();
 
 private:
     std::string name;

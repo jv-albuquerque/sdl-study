@@ -1,6 +1,9 @@
 #include "../Headers//Game.h"
 #include "../Headers/GameObject.h"
 
+
+SDL_Renderer* Game::Renderer = nullptr;
+
 Game::Game()
 {
     
@@ -34,10 +37,10 @@ void Game::Init(const char* title, const int width, const int height, const bool
         SDL_Log("Window created");
     }
 
-    renderer = SDL_CreateRenderer(window, -1, 0);
-    if (renderer)
+    Renderer = SDL_CreateRenderer(window, -1, 0);
+    if (Renderer)
     {
-        SDL_SetRenderDrawColor(renderer, 55, 76, 117, 255);
+        SDL_SetRenderDrawColor(Renderer, 55, 76, 117, 255);
         SDL_Log("Renderer created");
     }
 
@@ -77,19 +80,19 @@ void Game::Update()
 
 void Game::Render()
 {
-    SDL_RenderClear(renderer);    
+    SDL_RenderClear(Renderer);    
     
     for (auto go : gameObjects)
     {
-        go->Render(renderer);
+        go->Render();
     }
     
-    SDL_RenderPresent(renderer);
+    SDL_RenderPresent(Renderer);
 }
 
 void Game::Clean()
 {
-    SDL_DestroyRenderer(renderer);
+    SDL_DestroyRenderer(Renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
     
@@ -98,9 +101,9 @@ void Game::Clean()
 
 void Game::Close()
 {
-    SDL_DestroyRenderer(renderer);
+    SDL_DestroyRenderer(Renderer);
     SDL_DestroyWindow(window);
-    renderer = nullptr;
+    Renderer = nullptr;
     window = nullptr;
 }
 

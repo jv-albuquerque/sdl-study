@@ -18,11 +18,12 @@ public:
     void Close();
 
     bool Running() const;
+    
+    static SDL_Renderer* Renderer;
 
 protected:
     std::list<GameObject*> gameObjects;
     
     bool isRunning;
     SDL_Window* window;
-    SDL_Renderer* renderer;
 };
